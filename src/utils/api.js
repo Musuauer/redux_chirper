@@ -2,16 +2,16 @@ import {
   _getUsers,
   _getTweets,
   _saveLikeToggle,
-  _saveTweet,
+  _saveTweet
 } from './_DATA.js'
 
 export function getInitialData () {
   return Promise.all([
     _getUsers(),
-    _getTweets(),
+    _getTweets()
   ]).then(([users, tweets]) => ({
     users,
-    tweets,
+    tweets
   }))
 }
 
