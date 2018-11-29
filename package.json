@@ -20,6 +20,13 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "**/node_modules/",
+      "**/build/"
+    ]
+  },
   "main": "index.js",
   "repository": "https://github.com/Musuauer/redux_chirper.git",
   "author": "Musuauer\n\ngit config --global user.email musuauer@gmail.com",
